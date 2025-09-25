@@ -3,7 +3,7 @@ import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
 import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
-import HowToBuy2DReveal from '@/components/sections/layouts/howtobuy/2DRevealHTB';
+import HowToBuy2DReveal from '@/components/sections/layouts/howtobuy/2DHTB';
 import MinimalTokenomics from '@/components/sections/layouts/tokenomics/MinimalTokenomics';
 import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
 
