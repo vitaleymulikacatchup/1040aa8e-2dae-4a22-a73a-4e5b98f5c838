@@ -20,9 +20,8 @@ export default function Home() {
             { name: 'About', id: 'about' },
             { name: 'How to Buy', id: 'how-to-buy' },
             { name: 'Tokenomics', id: 'tokenomics' },
-            { name: 'Footer', id: 'footer' },
+            { name: 'Footer', id: 'footer' }
           ]}
-          buttonText="Join the Brain"
         />
       </div>
       <div id="hero" data-section="hero">
@@ -70,7 +69,6 @@ export default function Home() {
             { title: "Support", items: [{ label: "FAQs", onClick: () => {} }, { label: "Contact Us", onClick: () => {} }] }
           ]}
           copyrightText="© 2023 BrainRoot Memecoin"
-          onPrivacyClick={() => {}}  
         />
       </div>
     </SiteThemeProvider>
