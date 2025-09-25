@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BrainRoot Memecoin — Meme Brain Power for the People",
     description: "BrainRoot Memecoin blends meme energy with brainy tokenomics. Easy steps to buy, a playful vibe, and a community-driven roadmap.",
-    images: [ "/images/logo.svg" ],
+    images: [ "/images/logo.svg" ]
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.ico" },

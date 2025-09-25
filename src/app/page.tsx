@@ -70,7 +70,7 @@ export default function Home() {
             { title: "Support", items: [{ label: "FAQs", onClick: () => {} }, { label: "Contact Us", onClick: () => {} }] }
           ]}
           copyrightText="© 2023 BrainRoot Memecoin"
-          onPrivacyClick={() => {}}
+          onPrivacyClick={() => {}}  
         />
       </div>
     </SiteThemeProvider>
