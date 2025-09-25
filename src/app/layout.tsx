@@ -17,8 +17,10 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "BrainRoot Memecoin — Meme Brain Power for the People",
   description: "BrainRoot Memecoin blends meme energy with brainy tokenomics. Easy steps to buy, a playful vibe, and a community-driven roadmap.",
-  keywords: ["memecoin","brainroot","brain meme","crypto meme","tokenomics","how to buy","community","meme coin","brain-based","humor in crypto"],
-  alternates: { canonical: "/" },
+  keywords: ["memecoin","brainroot","brain meme","crypto meme","tokenomics","how to buy","community","meme coin","brain-based","humor in crypto","brain root"],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "BrainRoot Memecoin — Meme Brain Power for the People",
     description: "BrainRoot Memecoin blends meme energy with brainy tokenomics. Easy steps to buy, a playful vibe, and a community-driven roadmap.",
@@ -26,17 +28,17 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "BrainRoot Memecoin",
     images: [{
-      url: "/images/logo.svg",
+      url: "/images/placeholder1.avif",
       width: 1200,
       height: 630,
       alt: "BrainRoot Memecoin — Meme Brain Power for the People"
-    }]
+    }],
   },
   twitter: {
     card: "summary_large_image",
     title: "BrainRoot Memecoin — Meme Brain Power for the People",
     description: "BrainRoot Memecoin blends meme energy with brainy tokenomics. Easy steps to buy, a playful vibe, and a community-driven roadmap.",
-    images: [ "/images/logo.svg" ]
+    images: "/images/placeholder1.avif"
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.ico" },
