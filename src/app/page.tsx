@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'brainRot', colorTemplate: 1, textAnimation: 'expand' }}>
       <div id="nav" data-section="nav">
-        <NavbarStyleApple 
+        <NavbarStyleApple
           logoSrc="/images/logo.svg"
           logoAlt="BrainRoot Logo"
           brandName="BrainRoot Memecoin"
